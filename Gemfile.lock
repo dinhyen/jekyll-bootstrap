@@ -23,6 +23,9 @@ GEM
       kramdown (~> 0.13)
       liquid (~> 2.3)
       maruku (~> 0.5)
+    jekyll-sass (1.1.0)
+      jekyll (>= 0.10.0)
+      sass (>= 3.0.0)
     kgio (2.8.0)
     kramdown (0.14.2)
     liquid (2.5.0)
@@ -31,6 +34,7 @@ GEM
     posix-spawn (0.3.6)
     rack (1.4.5)
     raindrops (0.10.0)
+    sass (3.2.7)
     syntax (1.0.0)
     unicorn (4.6.2)
       kgio (~> 2.6)
@@ -42,5 +46,6 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  jekyll-sass
   rack-jekyll!
   unicorn
