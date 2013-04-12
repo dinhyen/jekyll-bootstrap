@@ -6,9 +6,6 @@ auto: true
 destination: 'public'
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", 'Gemfile', 'Gemfile.lock', 'Procfile', 'unicorn.rb', 'config.ru']
 pygments: true
-sass:
-  syntax: scss        # scss|sass
-  style:  expanded  # nested|expanded|compact|compressed
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.

@@ -40,6 +40,17 @@ module JB
   end #Path
 end #JB
 
+desc 'nuke, build and compass'
+task :generate do
+  sh 'rm -rf _site'
+  jekyll
+end
+
+def jekyll
+  sh 'time jekyll' # generation time
+  sh 'compass compile' #configure in config.rb
+end
+
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do

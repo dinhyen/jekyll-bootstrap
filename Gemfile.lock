@@ -12,10 +12,16 @@ GEM
     RedCloth (4.2.9)
     albino (1.3.3)
       posix-spawn (>= 0.3.6)
+    chunky_png (1.2.8)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
     directory_watcher (1.5.1)
     fast-stemmer (1.0.2)
+    fssm (0.2.10)
     jekyll (0.11.2)
       albino (~> 1.3)
       classifier (~> 1.3)
@@ -23,9 +29,6 @@ GEM
       kramdown (~> 0.13)
       liquid (~> 2.3)
       maruku (~> 0.5)
-    jekyll-sass (1.1.0)
-      jekyll (>= 0.10.0)
-      sass (>= 3.0.0)
     kgio (2.8.0)
     kramdown (0.14.2)
     liquid (2.5.0)
@@ -46,6 +49,6 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
-  jekyll-sass
+  compass
   rack-jekyll!
   unicorn
